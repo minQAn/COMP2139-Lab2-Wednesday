@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkrHIE/0zrUxU52qsgYTvpXs3vdpamiVETK1AenDZAI+4D5XFln7Wfyoh6RXXrrGcZb4MdWSAsXoXgnQgb9jFQ==",
+  "dgSpecHash": "0y43craZz71VDZhit5dGYBC+6n7FtY/FRhsBPsBP70iecS5oaV9+VckVHOXJmt7sDJ9XKRvfonisv0gTFHhFfA==",
   "success": true,
-  "projectFilePath": "C:\\MyProjects\\.net\\comp2139\\temp\\week3\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj",
+  "projectFilePath": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\39469\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\39469\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

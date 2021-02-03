@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyProjects\\.net\\comp2139\\temp\\week3\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj": {}
+    "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj": {}
   },
   "projects": {
-    "C:\\MyProjects\\.net\\comp2139\\temp\\week3\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj": {
+    "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyProjects\\.net\\comp2139\\temp\\week3\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj",
+        "projectUniqueName": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj",
         "projectName": "COMP2139-Lab2-Wednesday",
-        "projectPath": "C:\\MyProjects\\.net\\comp2139\\temp\\week3\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj",
+        "projectPath": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\COMP2139-Lab2-Wednesday\\COMP2139-Lab2-Wednesday.csproj",
         "packagesPath": "C:\\Users\\39469\\.nuget\\packages\\",
-        "outputPath": "C:\\MyProjects\\.net\\comp2139\\temp\\week3\\COMP2139-Lab2-Wednesday\\obj\\",
+        "outputPath": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\COMP2139-Lab2-Wednesday\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
