@@ -13,7 +13,7 @@ namespace Lab3_wk4.Models
            
         }
 
-        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }        //table
         public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace Lab3_wk4.Models
                 new Category { CategoryId = 4, name = "Other" }
             );
 
-            modelBuilder.Entity<Contact>().HasData(
+            _ = modelBuilder.Entity<Contact>().HasData(
 
                 new Contact
                 {

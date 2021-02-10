@@ -31,8 +31,8 @@ namespace Lab3_wk4.Migrations
                     Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Organization = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DateAdded = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false)
+                    CategoryId = table.Column<int>(type: "int", nullable: false),
+                    DateAdded = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -59,17 +59,17 @@ namespace Lab3_wk4.Migrations
             migrationBuilder.InsertData(
                 table: "Contacts",
                 columns: new[] { "ContactId", "CategoryId", "DateAdded", "Email", "FirstName", "LastName", "Organization", "Phone" },
-                values: new object[] { 1, 1, new DateTime(2021, 2, 3, 23, 55, 48, 20, DateTimeKind.Local).AddTicks(4510), "bruce.wayne@domain.com", "Bruce", "Wayne", null, "416-123-4567" });
+                values: new object[] { 1, 1, new DateTime(2021, 2, 11, 0, 16, 15, 930, DateTimeKind.Local).AddTicks(8453), "bruce.wayne@domain.com", "Bruce", "Wayne", null, "416-123-4567" });
 
             migrationBuilder.InsertData(
                 table: "Contacts",
                 columns: new[] { "ContactId", "CategoryId", "DateAdded", "Email", "FirstName", "LastName", "Organization", "Phone" },
-                values: new object[] { 2, 2, new DateTime(2021, 2, 3, 23, 55, 48, 21, DateTimeKind.Local).AddTicks(782), "peter.parker@domain.com", "Peter", "Parker", null, "647-123-4567" });
+                values: new object[] { 2, 2, new DateTime(2021, 2, 11, 0, 16, 15, 931, DateTimeKind.Local).AddTicks(4779), "peter.parker@domain.com", "Peter", "Parker", null, "647-123-4567" });
 
             migrationBuilder.InsertData(
                 table: "Contacts",
                 columns: new[] { "ContactId", "CategoryId", "DateAdded", "Email", "FirstName", "LastName", "Organization", "Phone" },
-                values: new object[] { 3, 3, new DateTime(2021, 2, 3, 23, 55, 48, 21, DateTimeKind.Local).AddTicks(805), "diana.prince@domain.com", "Diana", "Prince", null, "905-123-4567" });
+                values: new object[] { 3, 3, new DateTime(2021, 2, 11, 0, 16, 15, 931, DateTimeKind.Local).AddTicks(4801), "diana.prince@domain.com", "Diana", "Prince", null, "905-123-4567" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Contacts_CategoryId",

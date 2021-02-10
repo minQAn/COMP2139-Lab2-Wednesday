@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Lab3_wk4.Migrations
 {
     [DbContext(typeof(ContactContext))]
-    [Migration("20210203145548_Initial")]
+    [Migration("20210210151616_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -101,7 +101,7 @@ namespace Lab3_wk4.Migrations
                         {
                             ContactId = 1,
                             CategoryId = 1,
-                            DateAdded = new DateTime(2021, 2, 3, 23, 55, 48, 20, DateTimeKind.Local).AddTicks(4510),
+                            DateAdded = new DateTime(2021, 2, 11, 0, 16, 15, 930, DateTimeKind.Local).AddTicks(8453),
                             Email = "bruce.wayne@domain.com",
                             FirstName = "Bruce",
                             LastName = "Wayne",
@@ -111,7 +111,7 @@ namespace Lab3_wk4.Migrations
                         {
                             ContactId = 2,
                             CategoryId = 2,
-                            DateAdded = new DateTime(2021, 2, 3, 23, 55, 48, 21, DateTimeKind.Local).AddTicks(782),
+                            DateAdded = new DateTime(2021, 2, 11, 0, 16, 15, 931, DateTimeKind.Local).AddTicks(4779),
                             Email = "peter.parker@domain.com",
                             FirstName = "Peter",
                             LastName = "Parker",
@@ -121,7 +121,7 @@ namespace Lab3_wk4.Migrations
                         {
                             ContactId = 3,
                             CategoryId = 3,
-                            DateAdded = new DateTime(2021, 2, 3, 23, 55, 48, 21, DateTimeKind.Local).AddTicks(805),
+                            DateAdded = new DateTime(2021, 2, 11, 0, 16, 15, 931, DateTimeKind.Local).AddTicks(4801),
                             Email = "diana.prince@domain.com",
                             FirstName = "Diana",
                             LastName = "Prince",

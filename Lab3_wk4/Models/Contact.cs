@@ -24,7 +24,17 @@ namespace Lab3_wk4.Models
 
         public string Organization { get; set; }
 
-        public DateTime DateAdded { get; set; }
+        private DateTime dateAdded;
+
+        public DateTime GetDateAdded()
+        {
+            return dateAdded;
+        }
+
+        public void SetDateAdded(DateTime value)
+        {
+            dateAdded = value;
+        }
 
         [Range(1, 10, ErrorMessage = "Please select a category")]
         public int CategoryId { get; set; }
@@ -34,6 +44,6 @@ namespace Lab3_wk4.Models
         public string slug => FirstName?.Replace(' ', '-').ToLower()
             + '-' + LastName?.Replace(' ', '-').ToLower();
 
-
+        public DateTime DateAdded { get; set; }
     }
 }

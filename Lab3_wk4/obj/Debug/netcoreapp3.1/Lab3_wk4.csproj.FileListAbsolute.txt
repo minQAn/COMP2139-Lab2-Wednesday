@@ -75,3 +75,4 @@ C:\MyProjects\.net\comp2139\temp\week4\Lab3_wk4\obj\Debug\netcoreapp3.1\Lab3_wk4
 C:\MyProjects\.net\comp2139\temp\week4\Lab3_wk4\obj\Debug\netcoreapp3.1\Lab3_wk4.dll
 C:\MyProjects\.net\comp2139\temp\week4\Lab3_wk4\obj\Debug\netcoreapp3.1\Lab3_wk4.pdb
 C:\MyProjects\.net\comp2139\temp\week4\Lab3_wk4\obj\Debug\netcoreapp3.1\Lab3_wk4.genruntimeconfig.cache
+C:\MyProjects\.net\comp2139\temp\week4\Lab3_wk4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

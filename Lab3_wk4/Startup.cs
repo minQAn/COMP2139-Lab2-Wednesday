@@ -32,7 +32,7 @@ namespace Lab3_wk4
             services.AddControllersWithViews();
 
             //my code -wk4
-
+            //dependency injection?
             services.AddDbContext<ContactContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ContactContext")));
 
         }
