@@ -6646,11 +6646,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\Lab3_wk4\\Lab3_wk4.csproj",
+      "projectUniqueName": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Lab3_wk4\\Lab3_wk4.csproj",
       "projectName": "Lab3_wk4",
-      "projectPath": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\Lab3_wk4\\Lab3_wk4.csproj",
+      "projectPath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Lab3_wk4\\Lab3_wk4.csproj",
       "packagesPath": "C:\\Users\\39469\\.nuget\\packages\\",
-      "outputPath": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\Lab3_wk4\\obj\\",
+      "outputPath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Lab3_wk4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

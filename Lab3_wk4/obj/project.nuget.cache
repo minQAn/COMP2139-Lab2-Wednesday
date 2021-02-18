@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3QXAozM2WRSxYT7xmowoC9zxEPlbj65tyb8WGr1PEpY5L85YGsLLaUjJAI4NN+ZReeHN3ylQdhiTagp9zQ5X/g==",
+  "dgSpecHash": "Ippp4hdpQBPRe7X11XU0MjyJ7a3c/Zmthfb3uQksLnL97IJCEBH5xYNtRj2aoKU6j2uW3uv3cgxQzvsVo40jZQ==",
   "success": true,
-  "projectFilePath": "C:\\MyProjects\\.net\\comp2139\\temp\\week4\\Lab3_wk4\\Lab3_wk4.csproj",
+  "projectFilePath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Lab3_wk4\\Lab3_wk4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\39469\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\39469\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
