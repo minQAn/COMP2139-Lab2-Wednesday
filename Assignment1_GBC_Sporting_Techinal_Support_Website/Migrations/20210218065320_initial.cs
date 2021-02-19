@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Assignment1_GBC_Sporting_Techinal_Support_Website.Migrations
+namespace GBCSporting2021_Team_AHJ.Migrations
 {
     public partial class initial : Migration
     {

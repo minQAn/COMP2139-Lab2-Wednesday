@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Assignment1_GBC_Sporting_Techinal_Support_Website.Controllers
+namespace GBCSporting2021_Team_AHJ.Controllers
 {
     public class HomeController : Controller
     {

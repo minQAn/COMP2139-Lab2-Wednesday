@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AMfHeKy2CS8Q9s7JZratI8Y20hpyUo99xkJH6oIhAn46J7wfFGaYxsd2c8lWoXtGx2fpbHWclp4mh4M1YLisDg==",
+  "dgSpecHash": "ZxQwSAMH0iDaB1SfYoXmoTG2s3D2JHCBpLd5IBL2LOZRhA6YBPqF6ut/llEz5qKFa0x4N7dReluHI3X+rGfWHw==",
   "success": true,
-  "projectFilePath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Assignment1_GBC_Sporting_Techinal_Support_Website\\Assignment1_GBC_Sporting_Techinal_Support_Website.csproj",
+  "projectFilePath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Assignment1_GBC_Sporting_Techinal_Support_Website\\GBCSporting2021_Team_AHJ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\39469\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\39469\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

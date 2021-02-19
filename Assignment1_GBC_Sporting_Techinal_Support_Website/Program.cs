@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Assignment1_GBC_Sporting_Techinal_Support_Website
+namespace GBCSporting2021_Team_AHJ
 {
     public class Program
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Assignment1_GBC_Sporting_Techinal_Support_Website.Models
+namespace GBCSporting2021_Team_AHJ.Models
 {
     public class IncidentsContext : DbContext
     {

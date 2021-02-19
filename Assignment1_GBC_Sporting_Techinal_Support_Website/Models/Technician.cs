@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Assignment1_GBC_Sporting_Techinal_Support_Website.Models
+namespace GBCSporting2021_Team_AHJ.Models
 {
     public class Technician
     {

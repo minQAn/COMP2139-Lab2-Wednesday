@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\MyProjects\.net\comp2139\temp\assignment1\Assignment1_GBC_Sporting_Techinal_Support_Website\Views\_ViewImports.cshtml"
-using Assignment1_GBC_Sporting_Techinal_Support_Website;
+using GBCSporting2021_Team_AHJ;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\MyProjects\.net\comp2139\temp\assignment1\Assignment1_GBC_Sporting_Techinal_Support_Website\Views\_ViewImports.cshtml"
-using Assignment1_GBC_Sporting_Techinal_Support_Website.Models;
+using GBCSporting2021_Team_AHJ.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8976ee806691153d5a29335ac66e0618bea694c", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b8af5b97141c5bdfa23eb8bb05f5075c03a80e0d", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ac6f5d4d83bff98646f11c8dd93b25f256591c55", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
