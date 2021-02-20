@@ -6646,11 +6646,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Assignment1_GBC_Sporting_Techinal_Support_Website\\GBCSporting2021_Team_AHJ.csproj",
+      "projectUniqueName": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1_edited\\assignment1_edited\\Assignment1_GBC_Sporting_Techinal_Support_Website\\GBCSporting2021_Team_AHJ.csproj",
       "projectName": "GBCSporting2021_Team_AHJ",
-      "projectPath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Assignment1_GBC_Sporting_Techinal_Support_Website\\GBCSporting2021_Team_AHJ.csproj",
+      "projectPath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1_edited\\assignment1_edited\\Assignment1_GBC_Sporting_Techinal_Support_Website\\GBCSporting2021_Team_AHJ.csproj",
       "packagesPath": "C:\\Users\\39469\\.nuget\\packages\\",
-      "outputPath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1\\Assignment1_GBC_Sporting_Techinal_Support_Website\\obj\\",
+      "outputPath": "C:\\MyProjects\\.net\\comp2139\\temp\\assignment1_edited\\assignment1_edited\\Assignment1_GBC_Sporting_Techinal_Support_Website\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
