@@ -76,3 +76,12 @@ C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporti
 C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\GBCSporting2021_Team_AHJ.dll
 C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\GBCSporting2021_Team_AHJ.pdb
 C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\GBCSporting2021_Team_AHJ.genruntimeconfig.cache
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Product\Delete.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Technician\Index.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Technician\Delete.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Technician\Edit.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Index.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Delete.cshtml.g.cs

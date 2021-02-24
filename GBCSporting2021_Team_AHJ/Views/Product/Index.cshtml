@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewBag.Title = "Product Manager";
+}
+
+
+<h1>@ViewBag.Title</h1>
+
+<table class="table caption-top">    
+    <thead>
+        <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Release Date</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Product product in Model) // this Model comes from index of ProductContoller 
+        {
+            <tr>
+                <td>@product.Code</td>
+                <td>@product.Name</td>
+                <td>@product.Price.ToString("C2")</td>      
+                <td>@product.ReleaseDate.ToString("M/d/yyyy")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@product.ProductId" type="button" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductId" type="button" class="btn btn-primary">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Product" asp-action="Add" type="button" class="btn btn-primary">Add Product</a>

@@ -55,6 +55,8 @@ namespace GBCSporting2021_Team_AHJ
 
             app.UseEndpoints(endpoints =>
             {
+
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}");

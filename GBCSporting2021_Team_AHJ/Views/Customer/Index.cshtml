@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Customer>
+@{
+    ViewBag.Title = "Customer Manager";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<table class="table caption-top">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">City</th>            
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Customer customer in Model) // this Model comes from index of ProductContoller
+        {
+            <tr>
+                <td>@customer.FirstName @customer.LastName</td>
+                <td>@customer.Email</td>
+                <td>@customer.City</td>         
+                <td>
+                    <a asp-action="Edit" asp-route-id="@customer.CustomerId" type="button" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-controller="Customer" asp-action="Delete" asp-route-id="@customer.CustomerId" type="button" class="btn btn-primary">Delete</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Customer" asp-action="Add" type="button" class="btn btn-primary">Add Product</a>

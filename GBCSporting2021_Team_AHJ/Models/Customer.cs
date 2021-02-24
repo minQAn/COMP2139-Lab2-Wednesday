@@ -22,7 +22,7 @@ namespace GBCSporting2021_Team_AHJ.Models
         public string PostalCode { get; set; }
 
 
-        public string CountryId { get; set; }
+        public string? CountryId { get; set; }
         public Country Country { get; set; }
 
 

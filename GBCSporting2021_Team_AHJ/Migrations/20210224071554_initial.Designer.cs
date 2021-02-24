@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GBCSporting2021_Team_AHJ.Migrations
 {
     [DbContext(typeof(IncidentContext))]
-    [Migration("20210220015914_initial")]
+    [Migration("20210224071554_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -195,7 +195,7 @@ namespace GBCSporting2021_Team_AHJ.Migrations
                             IncidentId = 1,
                             CustomerId = 1,
                             DateClosed = new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2021, 2, 20, 10, 59, 13, 954, DateTimeKind.Local).AddTicks(6440),
+                            DateOpened = new DateTime(2021, 2, 24, 16, 15, 54, 170, DateTimeKind.Local).AddTicks(4836),
                             Description = "The file seems like broken, so need to re-download",
                             ProductId = 1,
                             TechnicianId = 1,
@@ -206,7 +206,7 @@ namespace GBCSporting2021_Team_AHJ.Migrations
                             IncidentId = 2,
                             CustomerId = 2,
                             DateClosed = new DateTime(2021, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2021, 2, 20, 10, 59, 13, 955, DateTimeKind.Local).AddTicks(4198),
+                            DateOpened = new DateTime(2021, 2, 24, 16, 15, 54, 171, DateTimeKind.Local).AddTicks(2364),
                             Description = "Error occurs in some point.",
                             ProductId = 2,
                             TechnicianId = 2,
@@ -217,7 +217,7 @@ namespace GBCSporting2021_Team_AHJ.Migrations
                             IncidentId = 3,
                             CustomerId = 3,
                             DateClosed = new DateTime(2021, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            DateOpened = new DateTime(2021, 2, 20, 10, 59, 13, 955, DateTimeKind.Local).AddTicks(4232),
+                            DateOpened = new DateTime(2021, 2, 24, 16, 15, 54, 171, DateTimeKind.Local).AddTicks(2390),
                             Description = "Error occur when is launching program",
                             ProductId = 3,
                             TechnicianId = 3,
