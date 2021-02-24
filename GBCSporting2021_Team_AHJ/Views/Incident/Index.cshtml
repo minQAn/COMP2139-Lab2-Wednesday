@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Incident>
+@{
+    ViewBag.Title = "Incident Manager";
+}
+
+
+<h1>@ViewBag.Title</h1>
+
+<table class="table caption-top">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Customer</th>
+            <th scope="col">Product</th>
+            <th scope="col">Date Opened</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Incident incident in Model) // this Model comes from index of Controller return
+        {
+        <tr>
+            <td>@incident.Title</td>
+            <td>@incident.Customer.FirstName<br />@incident.Customer.LastName</td>
+            <td>@incident.Product.Name</td>
+            <td>@incident.DateOpened.ToShortDateString()</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@incident.IncidentId" type="button" class="btn btn-primary">Edit</a>
+            </td>
+            <td>
+                <a asp-controller="Incident" asp-action="Delete" asp-route-id="@incident.IncidentId" type="button" class="btn btn-primary">Delete</a>
+            </td>
+        </tr>
+
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Incident" asp-action="Add" type="button" class="btn btn-primary">Add Incident</a>

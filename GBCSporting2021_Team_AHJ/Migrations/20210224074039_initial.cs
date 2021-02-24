@@ -188,17 +188,17 @@ namespace GBCSporting2021_Team_AHJ.Migrations
             migrationBuilder.InsertData(
                 table: "Incidents",
                 columns: new[] { "IncidentId", "CustomerId", "DateClosed", "DateOpened", "Description", "ProductId", "TechnicianId", "Title" },
-                values: new object[] { 2, 2, new DateTime(2021, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 15, 54, 171, DateTimeKind.Local).AddTicks(2364), "Error occurs in some point.", 2, 2, "Error importing data" });
+                values: new object[] { 2, 2, new DateTime(2021, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 40, 39, 265, DateTimeKind.Local).AddTicks(8748), "Error occurs in some point.", 2, 2, "Error importing data" });
 
             migrationBuilder.InsertData(
                 table: "Incidents",
                 columns: new[] { "IncidentId", "CustomerId", "DateClosed", "DateOpened", "Description", "ProductId", "TechnicianId", "Title" },
-                values: new object[] { 1, 1, new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 15, 54, 170, DateTimeKind.Local).AddTicks(4836), "The file seems like broken, so need to re-download", 1, 1, "Could not install" });
+                values: new object[] { 1, 1, new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 40, 39, 265, DateTimeKind.Local).AddTicks(1964), "The file seems like broken, so need to re-download", 1, 1, "Could not install" });
 
             migrationBuilder.InsertData(
                 table: "Incidents",
                 columns: new[] { "IncidentId", "CustomerId", "DateClosed", "DateOpened", "Description", "ProductId", "TechnicianId", "Title" },
-                values: new object[] { 3, 3, new DateTime(2021, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 15, 54, 171, DateTimeKind.Local).AddTicks(2390), "Error occur when is launching program", 3, 3, "Error launching program" });
+                values: new object[] { 3, 3, new DateTime(2021, 5, 3, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2020, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified), "Error occur when is launching program", 3, 3, "Error launching program" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Customers_CountryId",

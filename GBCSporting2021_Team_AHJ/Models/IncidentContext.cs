@@ -157,7 +157,7 @@ namespace GBCSporting2021_Team_AHJ.Models
                       Title = "Error launching program",
                       Description = "Error occur when is launching program",
                       TechnicianId = 3,
-                      DateOpened = DateTime.Now,
+                      DateOpened = new DateTime(2020, 3, 5),
                       DateClosed = new DateTime(2021, 5, 3),
 
                   }
