@@ -188,12 +188,12 @@ namespace GBCSporting2021_Team_AHJ.Migrations
             migrationBuilder.InsertData(
                 table: "Incidents",
                 columns: new[] { "IncidentId", "CustomerId", "DateClosed", "DateOpened", "Description", "ProductId", "TechnicianId", "Title" },
-                values: new object[] { 2, 2, new DateTime(2021, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 40, 39, 265, DateTimeKind.Local).AddTicks(8748), "Error occurs in some point.", 2, 2, "Error importing data" });
+                values: new object[] { 2, 2, new DateTime(2021, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 25, 16, 23, 54, 916, DateTimeKind.Local).AddTicks(6662), "Error occurs in some point.", 2, 2, "Error importing data" });
 
             migrationBuilder.InsertData(
                 table: "Incidents",
                 columns: new[] { "IncidentId", "CustomerId", "DateClosed", "DateOpened", "Description", "ProductId", "TechnicianId", "Title" },
-                values: new object[] { 1, 1, new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 24, 16, 40, 39, 265, DateTimeKind.Local).AddTicks(1964), "The file seems like broken, so need to re-download", 1, 1, "Could not install" });
+                values: new object[] { 1, 1, new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), new DateTime(2021, 2, 25, 16, 23, 54, 915, DateTimeKind.Local).AddTicks(9469), "The file seems like broken, so need to re-download", 1, 1, "Could not install" });
 
             migrationBuilder.InsertData(
                 table: "Incidents",

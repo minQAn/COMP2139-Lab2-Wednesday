@@ -8,14 +8,12 @@ namespace GBCSporting2021_Team_AHJ.Models
     {
         public int IncidentId { get; set; }
 
-
-        public int CustomerId { get; set; }
         [Required(ErrorMessage = "Please select a customer.")]
+        public int CustomerId { get; set; }        
         public Customer Customer { get; set; }
 
-
-        public int ProductId { get; set; }
         [Required(ErrorMessage = "Please select a product.")]
+        public int ProductId { get; set; }       
         public Product Product { get; set; }
 
         [Required(ErrorMessage = "Please enter a valid Title")]

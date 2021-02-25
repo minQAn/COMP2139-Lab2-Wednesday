@@ -86,3 +86,5 @@ C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporti
 C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Edit.cshtml.g.cs
 C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Delete.cshtml.g.cs
 C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Incident\Index.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Incident\Edit.cshtml.g.cs
+C:\MyProjects\.net\comp2139\temp\assignment1_edited\assignment1_edited\GBCSporting2021_Team_AHJ\obj\Debug\netcoreapp3.1\Razor\Views\Incident\Delete.cshtml.g.cs
