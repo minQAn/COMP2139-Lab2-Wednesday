@@ -18,7 +18,7 @@
                 <option value="@customer.CustomerId">@customer.FirstName&nbsp;@customer.LastName</option>
             }
         </select>
-    </div>
+    </>
 
     <div class="form-group">
         <label asp-for="ProductId">Product</label>
@@ -31,6 +31,7 @@
     <div class="form-group">
         <label asp-for="Title">Title</label>
         <input asp-for="Title" class="form-control" />
+        <span style="color:red" asp-validation-for="Title"></span>  @*asp-validation-for는 span에서만 사용가능*@
     </div>
 
     <div class="form-group">

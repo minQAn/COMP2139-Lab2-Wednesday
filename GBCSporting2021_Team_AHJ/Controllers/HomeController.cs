@@ -12,5 +12,13 @@ namespace GBCSporting2021_Team_AHJ.Controllers
         {
             return View();
         }
+
+
+        public ViewResult About()
+        {
+            return View("About");
+        }
+
+
     }
 }
