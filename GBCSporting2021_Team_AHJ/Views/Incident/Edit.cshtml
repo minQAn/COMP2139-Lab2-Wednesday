@@ -1,4 +1,4 @@
-﻿@model Incident
+﻿@model IncidentViewModel
 @{
     string title = ViewBag.Action + " Incident";
     ViewBag.Title = title;    
@@ -11,56 +11,56 @@
     <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="form-group">
-        <label asp-for="CustomerId">Customer</label>
-        <select asp-for="CustomerId" class="form-control">
-            @foreach(Customer customer in ViewBag.Customers)
+        <label asp-for="CurrentIncident.CustomerId">Customer</label>
+        <select asp-for="CurrentIncident.CustomerId" class="form-control">
+            @foreach(Customer customer in Model.Customers)
             { 
                 <option value="@customer.CustomerId">@customer.FirstName&nbsp;@customer.LastName</option>
             }
         </select>
-    </>
+    </div>
 
     <div class="form-group">
-        <label asp-for="ProductId">Product</label>
-        <select asp-for="ProductId"
-                asp-items="@(new SelectList(ViewBag.Products, "ProductId", "Name", Model.ProductId.ToString()))"
+        <label asp-for="CurrentIncident.ProductId">Product</label>
+        <select asp-for="CurrentIncident.ProductId"
+                asp-items="@(new SelectList(Model.Products, "ProductId", "Name", Model.CurrentIncident.ProductId))"
                 class="form-control">
         </select>
     </div>
 
     <div class="form-group">
-        <label asp-for="Title">Title</label>
-        <input asp-for="Title" class="form-control" />
-        <span style="color:red" asp-validation-for="Title"></span>  @*asp-validation-for는 span에서만 사용가능*@
+        <label asp-for="CurrentIncident.Title">Title</label>
+        <input asp-for="CurrentIncident.Title" class="form-control" />
+        <span style="color:red" asp-validation-for="CurrentIncident.Title"></span>  @*asp-validation-for는 span에서만 사용가능*@
     </div>
 
     <div class="form-group">
-        <label asp-for="Description">Description</label>
-        <input asp-for="Description" class="form-control" />
+        <label asp-for="CurrentIncident.Description">Description</label>
+        <input asp-for="CurrentIncident.Description" class="form-control" />
     </div>
 
     <div class="form-group">
-        <label asp-for="TechnicianId">Technician</label>
-        <select asp-for="TechnicianId"
-                asp-items="@(new SelectList(ViewBag.Technicians, "TechnicianId", "Name", Model.TechnicianId))"
+        <label asp-for="CurrentIncident.TechnicianId">Technician</label>
+        <select asp-for="CurrentIncident.TechnicianId"
+                asp-items="@(new SelectList(Model.Technicians, "TechnicianId", "Name"))"      
                 class="form-control">
             <option value="">Select a technician...</option>     @*For default. value="" means null!!  *@
         </select>
     </div>
 
     <div class="form-group">
-        <label asp-for="DateOpened">Date Opened</label>
-        <input asp-for="DateOpened" type="date" class="form-control" />
+        <label asp-for="CurrentIncident.DateOpened">Date Opened</label>
+        <input asp-for="CurrentIncident.DateOpened" type="date" class="form-control" />
     </div>
 
     <div class="form-group">
-        <label asp-for="DateClosed">Date Closed</label>
-        <input asp-for="DateClosed" type="date" class="form-control" />
+        <label asp-for="CurrentIncident.DateClosed">Date Closed</label>
+        <input asp-for="CurrentIncident.DateClosed" type="date" class="form-control" />
     </div>
 
 
 
-    <input type="hidden" asp-for="IncidentId" />
+    <input type="hidden" asp-for="CurrentIncident.IncidentId" />
 
     <button type="submit" class="btn btn-primary">Save</button>
     <a asp-action="Index" class="btn btn-primary">Cancel</a>

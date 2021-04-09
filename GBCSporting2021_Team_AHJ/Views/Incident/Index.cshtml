@@ -1,10 +1,16 @@
-﻿@model IEnumerable<Incident>
+﻿@model IncidentListViewModel
 @{
     ViewBag.Title = "Incident Manager";
 }
 
 
 <h1>@ViewBag.Title</h1>
+<div class="row m-1">    @*asp-route-king <-- 이건 url 키를 가르키고 값을 all로 한다는 뜻*@
+    <a asp-action="Index" asp-route-filter="all" class="btn m-2 @(Model.Filter == "all" ? "btn-primary" : "btn-secondary")">All Incidents</a>
+    <a asp-action="Index" asp-route-filter="unassigned" class="btn m-2 @(Model.Filter == "unassigned" ? "btn-primary" : "btn-secondary")">Unassigned Incidents</a>
+    <a asp-action="Index" asp-route-filter="open" class="btn m-2 @(Model.Filter == "open" ? "btn-primary" : "btn-secondary")">Open Incidents</a>
+</div>
+
 
 <table class="table caption-top">
     <thead>
@@ -18,21 +24,20 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (Incident incident in Model) // this Model comes from index of Controller return
+        @foreach (var incident in Model.Incidents) // this Model comes from index of Controller return
         {
-        <tr>
-            <td>@incident.Title</td>
-            <td>@incident.Customer.FirstName<br />@incident.Customer.LastName</td>
-            <td>@incident.Product.Name</td>
-            <td>@incident.DateOpened.ToShortDateString()</td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@incident.IncidentId" type="button" class="btn btn-primary">Edit</a>
-            </td>
-            <td>
-                <a asp-controller="Incident" asp-action="Delete" asp-route-id="@incident.IncidentId" type="button" class="btn btn-primary">Delete</a>
-            </td>
-        </tr>
-
+            <tr>
+                <td>@incident.Title</td>
+                <td>@incident.Customer.FirstName @incident.Customer.LastName</td>
+                <td>@incident.Product.Name</td>
+                <td>@incident.DateOpened.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@incident.IncidentId" type="button" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-controller="Incident" asp-action="Delete" asp-route-id="@incident.IncidentId" type="button" class="btn btn-primary">Delete</a>
+                </td>
+            </tr>
         }
     </tbody>
 </table>

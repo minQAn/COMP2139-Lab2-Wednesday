@@ -1,0 +1,25 @@
+﻿@model TechnicianIncidentViewModel
+@{
+    ViewBag.Title = "Technician Incident";
+}
+
+@*여기서 이걸 하면 client단에서 미리 validation 함. submit하기전에 이미.. 대신 layout에 마지막에 script추가해야함.*@
+@section scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+<h4>Technician</h4>
+<form asp-action="List" method="post">
+    <div class="mt-4 mb-4">
+        <select asp-for="TechnicianID"
+                asp-items="@(new SelectList(Model.Technicians, "TechnicianId", "Name"))"
+                class="form-control">
+            <option value="">Select a technician...</option>     @*For default. value="" means null!!  *@
+        </select>
+        <span style="color:red;" asp-validation-for="TechnicianID"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Select</button>
+</form>

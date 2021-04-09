@@ -16,17 +16,17 @@ namespace GBCSporting2021_Team_AHJ.Controllers
         }
 
 
-        
-        public IActionResult Index()
-        {
+        [HttpGet]
+        public ViewResult Index()
+        {           
             var products = context.Products                      
-                .OrderBy(i => i.Name).ToList();
+                .OrderBy(i => i.ReleaseDate).ToList();
 
             return View(products);  // return to View Page!
         }
 
         //[HttpGet]
-        public IActionResult Add()
+        public ViewResult Add()
         {
             ViewBag.Action = "Add";            
 
@@ -34,7 +34,7 @@ namespace GBCSporting2021_Team_AHJ.Controllers
         }
 
         [HttpGet]
-        public IActionResult Edit(int id)
+        public ViewResult Edit(int id)
         {
             ViewBag.Action = "Edit";
             var product = context.Products
@@ -44,7 +44,7 @@ namespace GBCSporting2021_Team_AHJ.Controllers
         }
 
         [HttpGet]
-        public IActionResult Delete(int id)
+        public ViewResult Delete(int id)
         {
             var product = context.Products
                 .FirstOrDefault(i => i.ProductId == id);
@@ -63,26 +63,28 @@ namespace GBCSporting2021_Team_AHJ.Controllers
             {
                 if(action == "Add")
                 {                   
-                    context.Products.Add(product);
+                    context.Products.Add(product);                   
                 }
                 else
                 {
-                    context.Products.Update(product);
+                    context.Products.Update(product);                    
                 }
                 context.SaveChanges();
+                TempData["message"] = $"{product.Name} was {action.ToLower()}ed.";
                 return RedirectToAction("Index", "Product");
             }
             else
             {
                 ViewBag.Action = action;
-
+                TempData["message"] = "Error.. ModelState is Invalid.";
                 return View(product);
             }            
         }
 
         [HttpPost]
-        public IActionResult Delete(Product product)
+        public RedirectToActionResult Delete(Product product)
         {
+            TempData["message"] = $"{product.Name} was deleted.";
             context.Products.Remove(product);
             context.SaveChanges();
 

@@ -13,10 +13,10 @@ namespace GBCSporting2021_Team_AHJ.Controllers
             return View();
         }
 
-
+        [Route("[action]")]     // home/about 인데원래 /about으로 됨
         public ViewResult About()
         {
-            return View("About");
+            return View();
         }
 
 

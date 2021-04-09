@@ -59,12 +59,22 @@
             </nav>
         </nav>
     </header>
+    <div class="container text-center">
+        @if (TempData["message"] != null)
+        {
+            <h4 class="bg-info p-2 text-white rounded">@TempData["message"]</h4>
+        }
+    </div>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
+
+    <!-- jquery validation -->
+    @RenderSection("Scripts", required: false)
 
 </body>
 </html>

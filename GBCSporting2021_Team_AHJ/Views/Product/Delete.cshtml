@@ -8,6 +8,7 @@
 
 <form asp-action="Delete" method="post">
     <input type="hidden" asp-for="ProductId" />
+    <input type="hidden" asp-for="Name" />  @*이걸 보내야 tempData에서 메세지 보낼때 값이 있음*@
 
     <button type="submit" class="btn btn-primary">Yes</button>
     <a asp-action="Index" class="btn btn-primary">No</a>
